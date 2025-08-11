@@ -8,7 +8,7 @@
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
-    --DarkRed: #8B0000;
+    --DarkRed: #8B0000 (139,0,0);
     --DarkRed: linear-gradient(97.54deg, #8B0000 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
     --azul: #002F52;
@@ -21,4 +21,5 @@ body {
     font-weight: 400;
 
 }
+
 
