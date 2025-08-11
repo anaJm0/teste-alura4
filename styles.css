@@ -9,14 +9,41 @@
     --cor-de-fundo: #6A1B2D; /* vinho escuro */
     --branco: #FFFFFF;
     --gradiente-azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --fonte-principal: "Poppins";
+    --fonte-principal: "Poppins", sans-serif;
 }
 
-body {
+html, body {
+    margin: 0;
+    padding: 0;
     background-color: var(--cor-de-fundo);
     color: var(--branco);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    min-height: 100%;
 }
 
+main, section, header, footer, div {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--branco);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    padding: 20px 0;
+    text-align: center;
+}
