@@ -39,11 +39,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+
 }
 
-footer {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco);
-    padding: 20px 0;
-    text-align: center;
+footer * {
+    background-color: transparent !important; /* evita que filhos tenham fundo branco */
+    color: var(--branco) !important;
 }
+
+
